@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 280px;
+    border: 2px solid #06c;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    justify-content: center;
+    margin: 20px;
+}
+.odl {
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+}
+.box p {
+    margin: 4px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.dad_btn button {
+    width: 220px;
+    padding: 22px;
+    border-radius: 16px;
+    border: none;
+    background-color: #06c;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}

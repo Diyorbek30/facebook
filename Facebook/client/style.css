@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+center h1 {
+    margin: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 280px;
+    height: 190px;
+    border: 2px solid #06c;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 15px;
+}
+.odl {
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+}
+.box a {
+    all: unset;
+    cursor: pointer;
+
+}
+.box button {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #06c;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+}
+.about {
+    width: 220px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px;
+    text-align: center;
+    background-color: #06c;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+}
+.text {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+.text p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.98px;
+    margin: 20px;
+
+}
+.text button {
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    width: 220px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #06c;
+    border-radius: 16px;
+}
